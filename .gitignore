@@ -1,0 +1,6 @@
+# Environments
+venv/
+
+# Sphinx documentation
+_build/
+_generate/

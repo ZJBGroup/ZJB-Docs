@@ -1,0 +1,4 @@
+zjb-gui @ https://github.com/ZJBGroup/ZJB-GUI/tarball/main
+
+sphinx
+sphinx_book_theme
