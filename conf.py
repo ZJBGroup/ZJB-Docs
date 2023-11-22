@@ -18,7 +18,17 @@ extensions = [
     'sphinx.ext.autosummary',
     'sphinx.ext.viewcode',
     'sphinx.ext.napoleon',
+    'sphinx_design',
+    'myst_nb'
 ]
+
+# https://myst-nb.readthedocs.io/en/latest/configuration.html
+myst_enable_extensions = [
+    'dollarmath',
+    'colon_fence'
+]
+myst_heading_anchors=5
+nb_execution_mode='off'
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
@@ -30,3 +40,8 @@ language = 'zh_CN'
 
 html_theme = 'sphinx_book_theme'
 html_static_path = ['_static']
+
+
+html_theme_options = {
+    'show_toc_level': 2
+}
