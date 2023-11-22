@@ -20,6 +20,13 @@ ZJB是由之江实验室脑网络组图谱与类脑智能研究项目组开发�
 .. toctree::
    :hidden:
    :maxdepth: 1
+   :caption: GUI应用:
+
+   gui/ZJB-GUI-document.md
+
+.. toctree::
+   :hidden:
+   :maxdepth: 1
    :caption: Python库:
 
    main/main.rst
