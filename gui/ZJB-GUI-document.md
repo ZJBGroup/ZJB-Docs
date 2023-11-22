@@ -1,3 +1,9 @@
+---
+myst:
+  html_meta:
+    "referrer": "no-referrer"
+---
+
 <a name="Gs0aj"></a>
 # 使用手册
 <a name="h1LuJ"></a>
