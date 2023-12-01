@@ -43,6 +43,18 @@ myst:
 
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/21489474/1700205392217-53bea343-18fa-4803-b3f2-bb6202a8e3a2.png#averageHue=%2321201d&clientId=ud61fefda-3ef2-4&from=paste&height=600&id=u23824901&originHeight=1125&originWidth=1725&originalType=binary&ratio=1.875&rotation=0&showTitle=false&size=263944&status=done&style=none&taskId=ue9e7b409-2269-4bd6-95cc-1c5250ad1c0&title=&width=920)
 <a name="IYZM3"></a>
+
+3. 使用默认的工作空间
+
+平台提供了一个包含脑图谱、动力学模型及示例项目的默认工作空间，可以下载并使用
+下载资源仓库得到默认的工作空间: https://github.com/ZJBGroup/ZJB-Assets
+
+也可以通过百度网盘下载默认的工作空间：链接：https://pan.baidu.com/s/1a1teYJx4yB0B7HqsKeh4aw?pwd=ZJBW 
+
+提取码：ZJBW
+
+解压ZJB-Assets/workspaces/workspace_basic.zip，并在GUI应用首页`Open Workspace`中打开此工作空间并使用.
+
 ### 数字孪生脑页面
 通过点击导航栏 <img src="https://cdn.nlark.com/yuque/0/2023/png/21489474/1700201274471-b07ad81d-91b0-4c33-955d-c925bfa50a3e.png#averageHue=%23363636&clientId=ud61fefda-3ef2-4&from=paste&height=24&id=WEXOW&originHeight=45&originWidth=49&originalType=binary&ratio=1.875&rotation=0&showTitle=false&size=897&status=done&style=none&taskId=u4a67941b-d813-42e8-a76b-b62a45c81a6&title=&width=26.133333333333333"  height="20px" /> 按钮，进入到数字孪生脑页面。
 
