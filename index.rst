@@ -30,6 +30,7 @@ ZJB是由之江实验室脑网络组图谱与类脑智能研究项目组开发�
    :caption: Python库:
 
    main/create_dtb.md
+   main/stimulus.md
    main/examples.rst
 
 .. toctree::
