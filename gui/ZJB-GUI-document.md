@@ -12,6 +12,8 @@ myst:
 ### 目标
 通过这一模块的阅读，您能够对ZJB平台的各项功能有一个初步的了解，这将更好的帮助您利用ZJB平台实现数字孪生脑建模仿真的工作。
 <a name="cWxdc"></a>
+
+
 ### 启动平台进入首页
 启动 ZJB 平台，平台界面主要由标题栏、导航栏、窗口区组成。
 
@@ -161,8 +163,8 @@ myst:
 <a name="P8dvF"></a>
 ### 查看/分析 仿真结果
 数字孪生脑仿真任务（包括参数探索仿真）的结果会被存放在所仿真的数字孪生脑中，点击仿真结果即可对其中的仿真结果进行可视化或分析：  
-
-![image.png](https://cdn.nlark.com/yuque/0/2023/png/1044341/1700213551570-4203dfe0-f523-44c3-8150-78eea358d542.png#averageHue=%232d2d2c&clientId=u5f487ac0-86a7-4&from=paste&height=230&id=u175e45be&originHeight=288&originWidth=479&originalType=binary&ratio=1&rotation=0&showTitle=false&size=9573&status=done&style=none&taskId=ue4a86b5f-2b23-4321-8cac-6f8135e9342&title=&width=383.2)
+![image.png](https://cdn.nlark.com/yuque/0/2024/png/1044341/1706080760966-9793828e-871c-4b32-b364-26410bd7886b.png)
+![image.png](https://cdn.nlark.com/yuque/0/2024/png/1044341/1706080768763-23f0f569-6592-4460-963e-5e6e4e4adcb7.png)
 <a name="uVySn"></a>
 #### 查看仿真结果
 
@@ -175,20 +177,30 @@ myst:
 
 - 点击“Analysis”，进行仿真结果的分析. 面板中包含现有对该仿真进行过的分析，点击可对现有分析进行查看，面板中也包含创建新的分析"New Analysis"按钮，点击可创建对该仿真数据新的分析.   
 
-![image.png](https://cdn.nlark.com/yuque/0/2023/png/1044341/1700214233613-37ebb358-5a57-4178-b822-7dcc8dee3f48.png#averageHue=%232e2d2c&clientId=u5f487ac0-86a7-4&from=paste&height=249&id=uaccbbf3c&originHeight=311&originWidth=319&originalType=binary&ratio=1&rotation=0&showTitle=false&size=10238&status=done&style=none&taskId=u63ee8a4c-7180-43d8-a3f4-a0c80c433e6&title=&width=255.2)
+![image.png](https://cdn.nlark.com/yuque/0/2024/png/1044341/1706088548525-dd7c2990-6960-4ad8-874f-ee1093bb727e.png)
 - 点击"New Analysis"按钮，进入"新分析"页面.   
 
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/1044341/1700214428881-476ffda0-b17d-4eff-abbf-ca2a5031db89.png#averageHue=%23212121&clientId=u5f487ac0-86a7-4&from=paste&height=1118&id=u9bec5ab8&originHeight=1397&originWidth=2556&originalType=binary&ratio=1&rotation=0&showTitle=false&size=139051&status=done&style=none&taskId=u17c7362f-e5db-4e7a-8b25-187c6eea2e1&title=&width=2044.8)
 - 分析页中包含了被分析对象的简要属性信息
 - 点击![image.png](https://cdn.nlark.com/yuque/0/2023/png/1044341/1700443128997-4f6cccc3-3edf-4687-9295-3250bccf03c7.png#averageHue=%23aeaa6f&clientId=ucdf3ee29-3e56-4&from=paste&height=48&id=u070b462f&originHeight=60&originWidth=459&originalType=binary&ratio=1.25&rotation=0&showTitle=false&size=4613&status=done&style=none&taskId=u341b308a-caa6-4361-8155-b43c02634a8&title=&width=367.2)添加新的分析步骤（可多次添加多个分析），选择分析方法，如此处我们使用自相关的方法对仿真结果的时间序列提取连接信息点击“Run Analysis”执行分析：  
 
-![image.png](https://cdn.nlark.com/yuque/0/2023/png/1044341/1700443369157-f88b5ae3-1600-4843-9763-cfad2a67c66d.png#averageHue=%23626260&clientId=ucdf3ee29-3e56-4&from=paste&height=530&id=Bef0T&originHeight=662&originWidth=1171&originalType=binary&ratio=1.25&rotation=0&showTitle=false&size=172097&status=done&style=none&taskId=u86e962cf-49b2-4d69-8c61-03dc0f5f62c&title=&width=936.8)
+![image.png](https://cdn.nlark.com/yuque/0/2024/png/1044341/1706150400177-437bcfb4-1d72-4169-8bd8-e1945f737cea.png?x-oss-process=image%2Fresize%2Cw_1125%2Climit_0)
 - 此处，我们得到了相应的连接矩阵，点击“Advanced Visualization”进入连接矩阵的可视化界面，其关联图谱为被分析数据所在的空间所绑定的图谱.  
 
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/1044341/1700443588800-5eeeb80b-70e4-403a-bd34-2b5aa8e58a66.png#averageHue=%23a0d33a&clientId=ucdf3ee29-3e56-4&from=paste&height=1116&id=u9cfc28b6&originHeight=1395&originWidth=2568&originalType=binary&ratio=1.25&rotation=0&showTitle=false&size=780067&status=done&style=none&taskId=uf20ae382-7a02-44b5-bee2-b676a63f306&title=&width=2054.4)<br />选择不同的脑区后，可展示所选脑区间的相关性矩阵，同时也会展示其中权重前25的弦图.
-- 回到分析结果，点击"Save analysis result"将分析的结果保存在所处项目中.  
+- 回到分析结果，点击"Save analysis result"将分析的结果保存到用户指定的dtb或subject中，并对分析结果进行命名.
 
-![image.png](https://cdn.nlark.com/yuque/0/2023/png/1044341/1700444004146-ea571e13-9abb-461a-9e37-508c9522a039.png#averageHue=%233d3d3c&clientId=ucdf3ee29-3e56-4&from=paste&height=517&id=S1vUo&originHeight=646&originWidth=1492&originalType=binary&ratio=1.25&rotation=0&showTitle=false&size=183165&status=done&style=none&taskId=u30d50904-d7ee-4542-bebc-2b5dfda12e4&title=&width=1193.6)
+![image.png](https://cdn.nlark.com/yuque/0/2024/png/1044341/1706150538570-0242d920-3c6a-46cc-86a7-9cd55494e90e.png?x-oss-process=image%2Fresize%2Cw_1125%2Climit_0)
+![image.png](https://cdn.nlark.com/yuque/0/2024/png/1044341/1706150879855-f8e5f1ce-6b6f-496e-aa1f-dae4382bdcc5.png)
+- 多实体分析. 有的分析方法需要引入多个数据，比如对两组数据进行相关性分析时，我们选择“pearson_correlation”：
+
+![image.png](https://cdn.nlark.com/yuque/0/2024/png/1044341/1706151596223-256835b1-8c67-45e7-b812-a28616e35089.png)
+此时我们可以看到需要选择两组数据，默认为目前的待分析数据. 比如此时我们想计算当前数据与另一个时间序列的相关性，我们便需要导入一个新的数据，如选择此处array_2的Load按钮
+![image.png](https://cdn.nlark.com/yuque/0/2024/png/1044341/1706151798738-4a639749-499f-439b-8f6e-9d7a8cef459d.png)
+![image.png](https://cdn.nlark.com/yuque/0/2024/png/1044341/1706151809474-ee60eac2-a54a-4908-b64f-5bd2e76aad32.png)
+所弹出的数据选择对话框需要我们从中一层一层地选取所期望的数据，并进行选择，如此我们便完成了多实体分析下的数据选择，其余流程则和常规分析一致
+![image.png](https://cdn.nlark.com/yuque/0/2024/png/1044341/1706151856653-0ce4d11c-cd02-446e-8b9b-cffcb658519b.png)
+
 <a name="Ttr39"></a>
 #### 查看分析结果
 在数据中，点击“Analysis”，进行仿真结果的分析. 面板中包含现有对该仿真进行过的分析，点击可对该数据已有的分析进行查看，如上文中我们已经对仿真的时间序列结果提取了仿真的功能连接，此处展示如何对它查看并进行后续分析
@@ -288,4 +300,43 @@ def array_sum(
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/1044341/1700460512529-1a29d5ea-e21a-4538-8d59-138e95d37776.png#averageHue=%23272626&clientId=ucdf3ee29-3e56-4&from=paste&height=720&id=u6097b9be&originHeight=900&originWidth=2249&originalType=binary&ratio=1.25&rotation=0&showTitle=false&size=82867&status=done&style=none&taskId=ue44be8f1-0ac6-43be-942e-0eeccaf5930&title=&width=1799.2)<br />其中，权重weight_1及weight_2分别表示了两个相加矩阵的权重，可以进行修改，两个矩阵默认为当前分析数据的data属性，点击“load”可以导入项目中已有数据，比如此处我们导入另一功能连接矩阵并运行分析：  
 
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/1044341/1700460748517-48aea179-445f-41b4-82ef-b116568bf4d7.png#averageHue=%23616160&clientId=ucdf3ee29-3e56-4&from=paste&height=526&id=ub4886b46&originHeight=658&originWidth=1304&originalType=binary&ratio=1.25&rotation=0&showTitle=false&size=180144&status=done&style=none&taskId=ua108dcc6-9536-4e45-b2cf-665257c364e&title=&width=1043.2)<br />如此便成功实现了自定义分析方法的添加！
+
+## 生成并查看仿真的电生理数据
+在分析方法中， 我们内置了基于mne库的仿真电生理信号的方法，其本质为对本平台所仿真的神经活动数据通过mne的mne.simulation.simulate_raw方法，根据提供的前导矩阵等信息仿真用户期望的eeg、meg的传感器空间的数据，并可对所得到的数据进一步地进行可视化等处理. 
+
+**生成仿真的电生理数据**
+
+对仿真结果中的时间序列进行分析时，分析方法中，我们选择“create_mne_signals”便能够进行电生理数据的生成流程：
+![image.png](https://cdn.nlark.com/yuque/0/2024/png/1044341/1706162968837-61ca89c7-8f94-48a6-be39-2438efbc12e8.png#averageHue=%23353535&clientId=u1f7c5e9b-4d12-4&from=paste&height=417&id=u87438277&originHeight=625&originWidth=1347&originalType=binary&ratio=1.5&rotation=0&showTitle=false&size=51175&status=done&style=none&taskId=uc0c5cf0e-69bd-4bc0-9f3e-faac12dc4ec&title=&width=898)
+从平台内导入映射数据，并导入本地mne正向解文件（或源空间文件及边界元模型文件）及mne的传感器空间数据文件，设置合适的参数后，便可以执行并生成仿真的电生理数据，仿真的电生理数据可以被保存到数字孪生脑中，并进行进一步的查看。
+
+**查看仿真的电生理数据**
+
+点击数字孪生脑中的仿真电生理数据结果进行查看：
+![image.png](https://cdn.nlark.com/yuque/0/2024/png/1044341/1706165117571-0063c931-d577-4900-968d-879cbf4f1d92.png#averageHue=%23212121&clientId=u1f7c5e9b-4d12-4&from=paste&height=342&id=uadc4b77b&originHeight=428&originWidth=1406&originalType=binary&ratio=1.5&rotation=0&showTitle=false&size=26453&status=done&style=none&taskId=ufaf9e9f6-d0c8-4acd-ba27-8a45741f439&title=&width=1124.8)
+平台集成了4种电生理数据的可视化方法，包括
+
+   1. ssp projections：信号空间投影的拓扑图
+   2. channels series：通道时间序列的可视化
+   3. sensor locations: 传感器位置分布
+   4. power spectra：功率谱
+
+![image.png](https://cdn.nlark.com/yuque/0/2024/png/1044341/1706165353412-7cd44c62-0f83-4ce2-b1d1-11d161cfbf4e.png#averageHue=%236b6a6a&clientId=u1f7c5e9b-4d12-4&from=paste&height=565&id=u574a6396&originHeight=706&originWidth=2251&originalType=binary&ratio=1.5&rotation=0&showTitle=false&size=208490&status=done&style=none&taskId=u79162bf4-b3d5-4053-b348-3eb7aea8820&title=&width=1800.8)
+
+![image.png](https://cdn.nlark.com/yuque/0/2024/png/1044341/1704335892711-f325fb73-e0da-4130-b4ef-5a14d3024698.png#averageHue=%23b8b8b8&clientId=ued0072a3-7d60-4&from=paste&height=1280&id=u254f0cd8&originHeight=1408&originWidth=2568&originalType=binary&ratio=1.100000023841858&rotation=0&showTitle=false&size=228624&status=done&style=none&taskId=ubbd5cb58-4735-4ae4-a072-9a6e9a2a6ba&title=&width=2334.545403945546)
+
+![image.png](https://cdn.nlark.com/yuque/0/2024/png/1044341/1706165382065-f032f011-520c-412d-a00f-a9a6d4e68b5a.png#averageHue=%23d8d7d6&clientId=u1f7c5e9b-4d12-4&from=paste&height=1030&id=u2a917eef&originHeight=1287&originWidth=2232&originalType=binary&ratio=1.5&rotation=0&showTitle=false&size=920204&status=done&style=none&taskId=ucb2e4d9d-b705-4435-93aa-407fe3e1d54&title=&width=1785.6)
+可视化中可以很好地实现交互功能，包括
+
+1. 对应点显示信息：
+
+![image.png](https://cdn.nlark.com/yuque/0/2024/png/1044341/1704336014775-6ec22ce4-a3b6-4e8a-9cc0-fc35d63a4896.png#averageHue=%23f8f7f7&clientId=ued0072a3-7d60-4&from=paste&height=421&id=u332fe38c&originHeight=463&originWidth=558&originalType=binary&ratio=1.100000023841858&rotation=0&showTitle=false&size=40455&status=done&style=none&taskId=u3948101a-5c44-4cfa-af66-15b18775f68&title=&width=507.27271627788724)
+
+![image.png](https://cdn.nlark.com/yuque/0/2024/png/1044341/1704336026324-f4ba171a-6a1c-4ba7-9e99-1022c8302a86.png#averageHue=%23f4f2f0&clientId=ued0072a3-7d60-4&from=paste&height=622&id=u71ef0da2&originHeight=684&originWidth=2117&originalType=binary&ratio=1.100000023841858&rotation=0&showTitle=false&size=841184&status=done&style=none&taskId=uf7a6257c-751f-409f-903f-68fee6a92bf&title=&width=1924.5454128320562)
+
+2. 在频谱上点击拖动将弹出所选频率范围的头皮的地形图：
+
+![image.png](https://cdn.nlark.com/yuque/0/2024/png/1044341/1704336043546-ddab111a-6a88-44c3-a29b-a16be9c62107.png#averageHue=%23f2f0ef&clientId=ued0072a3-7d60-4&from=paste&height=625&id=u6f53535b&originHeight=687&originWidth=1008&originalType=binary&ratio=1.100000023841858&rotation=0&showTitle=false&size=442348&status=done&style=none&taskId=u14411f06-c239-426c-8820-020bd723072&title=&width=916.3636165019899)
+
+![image.png](https://cdn.nlark.com/yuque/0/2024/png/1044341/1704336074851-9cf3de23-d4ab-4b12-b175-87e0f6535fe1.png#averageHue=%23ada7a6&clientId=ued0072a3-7d60-4&from=paste&height=882&id=u29c940c0&originHeight=970&originWidth=1978&originalType=binary&ratio=1.100000023841858&rotation=0&showTitle=false&size=970621&status=done&style=none&taskId=u9bacede3-4517-48e3-8b40-18c00b79c11&title=&width=1798.1817792072777)
 
