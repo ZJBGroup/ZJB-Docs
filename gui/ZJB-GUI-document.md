@@ -129,7 +129,7 @@ myst:
 - 数字孪生脑模型的名字.
 - 数字孪生脑模型所使用的图谱.
 - 数字孪生脑模型所使用的动力学模型.
-- 数字孪生脑模型的动力学信息，包括变量、参数等，我们可以在此设置变量初值及非默认的动力学参数. 进一步地，我们也可以设置脑区异质性的参数或使用与被试数据关联的参数，同时，我们也可以在这里[对数字孪生脑模型设置刺激](#DYEut)
+- 数字孪生脑模型的动力学信息，包括变量、参数等，我们可以在此设置变量初值及非默认的动力学参数. 进一步地，我们也可以设置脑区异质性的参数或使用与被试数据关联的参数，同时，我们也可以在这里[对数字孪生脑模型设置刺激（详见示例）.](#DYEut)
 - 仿真配置信息  
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/1044341/1700202715732-098c4898-b4fb-4f65-8ac9-d2482392294e.png#averageHue=%23292828&clientId=u80ef789b-7c7b-4&from=paste&height=367&id=u9a972ca7&originHeight=367&originWidth=2224&originalType=binary&ratio=1.5&rotation=0&showTitle=false&size=27303&status=done&style=none&taskId=uef805e80-a824-4dba-9c14-51892d5a3d1&title=&width=2224)
    - 我们可以选择不同的微分方程求解器类型，并设置噪声，默认会使用时间步长为0.1(单位取决于动力学模型本身)的欧拉法求解器.![image.png](https://cdn.nlark.com/yuque/0/2023/png/1044341/1700202882551-d1c7512f-dabf-400c-95b6-a1fb68df1a07.png#averageHue=%232c2c2c&clientId=u80ef789b-7c7b-4&from=paste&height=171&id=u68e06247&originHeight=171&originWidth=777&originalType=binary&ratio=1.5&rotation=0&showTitle=false&size=7209&status=done&style=none&taskId=u90204de9-41fe-4cb0-a4e0-a9d2a5ac663&title=&width=777)
@@ -243,7 +243,7 @@ myst:
 类似地，我们可以在 工作空间/项目 中创建一个新的“DTB”，并设置相应的信息. 数字孪生脑由数字孪生脑、被试、被试数据中的连接信息构成，选择合适的信息来创建一个数字孪生脑.  
 
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/1044341/1700447181981-decfab64-5a66-4c46-a276-03c21f8a71e8.png#averageHue=%23312f2e&clientId=ucdf3ee29-3e56-4&from=paste&height=363&id=u02cdefa2&originHeight=198&originWidth=172&originalType=binary&ratio=1.25&rotation=0&showTitle=false&size=7963&status=done&style=none&taskId=u15496267-2ce5-49f0-8d65-0c97cadd880&title=&width=315.6000061035156) ![image.png](https://cdn.nlark.com/yuque/0/2023/png/1044341/1700447212678-4f3e9d0f-51e4-432d-b2fa-43d35c896b2c.png#averageHue=%232f2f2e&clientId=ucdf3ee29-3e56-4&from=paste&height=364&id=u9258ddff&originHeight=455&originWidth=376&originalType=binary&ratio=1.25&rotation=0&showTitle=false&size=17681&status=done&style=none&taskId=u366dc41a-f47b-43ba-93ff-01a1e0bc39a&title=&width=300.8)
-<a name="T07PZ"></a>
+<a name="DYEut"></a>
 ## 在数字孪生脑仿真中施加刺激
 在数字孪生脑模型页面中，我们可以对他的参数值支持设置为刺激实例，从而实现数字孪生脑仿真中的刺激功能。
 首先，我们需要在数字孪生脑模型页面中的参数部分点击“+Add stimulation”按钮，并进行一些设置：
@@ -256,11 +256,12 @@ myst:
 ![image.png](https://cdn.nlark.com/yuque/0/2024/png/1044341/1707276495353-4cb84059-5533-4175-bea9-4562ee7255fa.png#averageHue=%232f2e2e&clientId=u471de447-f42e-4&from=paste&height=416&id=ue97ade57&originHeight=520&originWidth=350&originalType=binary&ratio=1.25&rotation=0&showTitle=false&size=17506&status=done&style=none&taskId=u9496a92f-bf3a-45bc-9d55-d2ebac9ae97&title=&width=280)![image.png](https://cdn.nlark.com/yuque/0/2024/png/1044341/1707276734516-bb35593c-dcbd-4157-895e-efd00af00a5d.png#averageHue=%23342f2d&clientId=u471de447-f42e-4&from=paste&height=1229&id=u73ad1eab&originHeight=1352&originWidth=2247&originalType=binary&ratio=1.25&rotation=0&showTitle=false&size=1320387&status=done&style=none&taskId=uf8e69dc7-2af2-4031-9d08-dc97eaf7178&title=&width=2042.7272284523524)![image.png](https://cdn.nlark.com/yuque/0/2024/png/1044341/1707285052688-0c17b9d3-bd27-4acc-b573-4175504dc056.png#averageHue=%232e2d2d&clientId=u471de447-f42e-4&from=paste&height=478&id=ua29ed930&originHeight=526&originWidth=355&originalType=binary&ratio=1.25&rotation=0&showTitle=false&size=18136&status=done&style=none&taskId=u6c6267b8-dead-4da7-b3d1-765b0005378&title=&width=322.72726573234763)
 - 最后，选择合适的参数予以施加刺激，点击确认，便能将刺激的实例赋给对应参数。
 ![image.png](https://cdn.nlark.com/yuque/0/2024/png/1044341/1707285128411-9b8843dc-1db5-4870-8d8e-bf9b35e924a3.png#averageHue=%232b2b2a&clientId=u471de447-f42e-4&from=paste&height=946&id=u6c0cfb82&originHeight=1041&originWidth=976&originalType=binary&ratio=1.25&rotation=0&showTitle=false&size=58128&status=done&style=none&taskId=u507a5e04-9ff4-4be1-998f-bf1e32dffdf&title=&width=887.2727080416092)
-- 如果需要产出该参数下的刺激，只需要在输入框中删除该实体，并设定固定值或初始值即可
+- 如果需要删除该参数下的刺激，只需要在输入框中删除该实体，并设定固定值或初始值即可
 
 最后，让我们看一下添加刺激后的数字孪生脑仿真结果：
 ![image.png](https://cdn.nlark.com/yuque/0/2024/png/1044341/1707285387378-51c0590c-7f46-4af6-8913-5dba776e2f23.png#averageHue=%237e7d7d&clientId=u471de447-f42e-4&from=paste&height=1168&id=u99c297dc&originHeight=1285&originWidth=2247&originalType=binary&ratio=1.25&rotation=0&showTitle=false&size=902041&status=done&style=none&taskId=uefea25e8-4c1e-47b9-b30a-51e3d3241d3&title=&width=2042.7272284523524)
 动态三维时间序列和二维时间序列都表明，对相关脑区施加刺激后数字孪生脑发生了对应的活动响应
+<a name="T07PZ"></a>
 ## 高效便捷的参数输入
 参数输入中，如PSE仿真设置中，我们需要对不同的参数进行设置：
 
